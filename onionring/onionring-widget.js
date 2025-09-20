@@ -56,14 +56,14 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <p style = "all: initial; margin-left: 20px;"><a href='${sites[previousIndex]}'>← previous</a></p>
-  <p style = "all: initial;">ghostlife 001 - page ${thisIndex}</p>
-  <p style = "all: initial; margin-right: 20px;><a href='${sites[nextIndex]}'>next →</a></p>
+  <p><a href='${sites[previousIndex]}'>← previous</a></p>
+  <p>ghostlife 001 - page ${thisIndex}</p>
+  <p><a href='${sites[nextIndex]}'>next →</a></p>
   `);
 
 }
 
 //this styles the ring -x0plau 20250920
 
-document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 0px 15px; background-color: ${divBgColor}; display: flex; justify-content: space-between;`;
+document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 0px 30px; background-color: ${divBgColor}; display: flex; justify-content: space-between;`;
 
