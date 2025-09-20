@@ -28,9 +28,9 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<p style = 'background-color: ${ghostLifeBackgroundColor};'><a href='https://ghostlife.org/issue001' style = 'color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
+<p><a href='https://ghostlife.org/issue001' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
   <p style = 'background-color: ${ghostLifeBackgroundColor}; color: ${ghostLifeTextColor}'>your webpage was not added to the zine yet. please reach out to the ghostlife team</p>
-  <p style = 'background-color: ${ghostLifeBackgroundColor};'><a href='https://ghostlife.org/issue001' style = 'color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
+  <p><a href='https://ghostlife.org/issue001' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
   `);
 }
 else {
@@ -54,9 +54,9 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <p style = 'background-color: ${ghostLifeBackgroundColor};'><a href='${sites[previousIndex]}' style = 'color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
+  <p><a href='${sites[previousIndex]}' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
   <p style = 'background-color: ${ghostLifeBackgroundColor}; color: ${ghostLifeTextColor};'>ghostlife 001 - page ${thisIndex}</p>
-  <p style = 'background-color: ${ghostLifeBackgroundColor};'><a href='${sites[nextIndex]}' style = 'color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
+  <p><a href='${sites[nextIndex]}' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
   `);
 
 }
