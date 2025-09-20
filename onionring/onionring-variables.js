@@ -27,8 +27,8 @@ var indexPage = 'https://example.com/index.html';
 //should the widget include a random button?
 var useRandom = true;
 
-//this styles the ring -x0plau 20250920 
-document.getElementById("ghostlife001").style = "all: initial; position: fixed; bottom: 0; background-color: blue;";
+/*this styles the ring -x0plau 20250920 
+document.getElementById("ghostlife001").style = "all: initial; position: fixed; bottom: 0; background-color: blue;";*/
 
 
 
