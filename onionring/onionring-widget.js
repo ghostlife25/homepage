@@ -64,4 +64,4 @@ else {
 }
 
 //this styles the ring -x0plau 20250920
-document.getElementById("ghostlife001").style = "all: initial; width: 100%; position: fixed; bottom: 0; z-index: 9999; background-color: lightblue; display: flex; justify-content: space-between;";
+document.getElementById("ghostlife001").style = "all: initial; width: 100%; position: fixed; bottom: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 15px; background-color: lightblue; display: flex; justify-content: space-between;";
