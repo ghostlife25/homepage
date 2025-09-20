@@ -7,7 +7,7 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://www.plau.me/test.html',
+'https://www.plau.me/test',
 'https://www.ghostlife.org/test'
 ];
 
