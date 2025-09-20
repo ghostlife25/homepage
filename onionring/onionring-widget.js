@@ -64,4 +64,10 @@ else {
 }
 
 //this styles the ring -x0plau 20250920
-document.getElementById("ghostlife001").style = "all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 15px 0px; background-color: lightblue; display: flex; justify-content: space-between;";
+if ghostLifeBgColor === "yourChoice" {
+	let divBgColor = white;
+}
+else { 
+	let divBgColor = ghostLifeBgColor;
+}
+document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 0px 15px; background-color: ${divBgColor}; display: flex; justify-content: space-between;`;
