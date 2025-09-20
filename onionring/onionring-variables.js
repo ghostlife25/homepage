@@ -26,3 +26,6 @@ var indexPage = 'https://example.com/index.html';
 
 //should the widget include a random button?
 var useRandom = true;
+
+//this styles the ring -x0plau 20250920 
+var footerStyle = "position: fixed; bottom: 0;"
