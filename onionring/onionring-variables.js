@@ -7,8 +7,8 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://www.plau.me/test',
-'https://www.ghostlife.org/test'
+'https://www.ghostlife.org/issue001/',
+'https://www.plau.me/250830/'
 ];
 
 //the name of the ring
