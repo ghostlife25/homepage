@@ -28,11 +28,9 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<table>
-  <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
-  </tr>
-</table>
+<p><a href='https://ghostlife.org/issue001' style = 'color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
+  <p style = 'color: ${ghostLifeTextColor}'>your webpage was not added to the zine yet. please reach out to the ghostlife team</p>
+  <p><a href='https://ghostlife.org/issue001' style = 'color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
   `);
 }
 else {
