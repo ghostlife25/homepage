@@ -28,7 +28,7 @@ var indexPage = 'https://example.com/index.html';
 var useRandom = true;
 
 //this styles the ring -x0plau 20250920 
-document.getElementById("ghostlife001").style = "position: fixed; bottom: 0; background-color: white;";
+document.getElementById("ghostlife001").style = "all: initial; position: fixed; bottom: 0; background-color: blue;";
 
 
 
