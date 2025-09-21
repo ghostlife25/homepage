@@ -28,9 +28,9 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<p><a href='https://ghostlife.org/issue001' style = 'margin: 2px 2px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
+<a href='https://ghostlife.org/issue001' style = 'margin: 2px 2px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a>
   <p style = 'margin: 2px 2px; background-color: ${ghostLifeBackgroundColor}; color: ${ghostLifeTextColor}'>your webpage was not added to the zine yet. please reach out to the ghostlife team</p>
-  <p><a href='https://ghostlife.org/issue001' style = 'margin: 2px 2px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
+  <a href='https://ghostlife.org/issue001' style = 'margin: 2px 2px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a>
   `);
 }
 else {
@@ -63,5 +63,5 @@ else {
 
 //this styles the ring -x0plau 20250920
 
-document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 0px; background-color: ${ghostLifeBackgroundColor}; display: flex; justify-content: space-around;`;
+document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 0px; background-color: ${ghostLifeBackgroundColor}; display: flex; justify-content: space-around; align-items: center;`;
 
