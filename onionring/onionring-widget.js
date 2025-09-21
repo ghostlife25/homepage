@@ -63,5 +63,5 @@ else {
 
 //this styles the ring -x0plau 20250920
 
-document.getElementById("ghostlife001").style = `all: initial; width: 100%; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 1px 1px; background-color: ${ghostLifeBackgroundColor}; display: flex; justify-content: space-around; align-items: center;`;
+document.getElementById("ghostlife001").style = `all: initial; width: 100%; height: 30px; position: fixed; bottom: 0; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding: 1px 1px; background-color: ${ghostLifeBackgroundColor}; display: flex; justify-content: space-around; align-items: center;`;
 
