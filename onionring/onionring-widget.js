@@ -55,7 +55,7 @@ else {
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
   <p><a href='${sites[previousIndex]}' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a></p>
-  <p style = 'background-color: ${ghostLifeBackgroundColor}; color: ${ghostLifeTextColor};'>ghostlife 001 - page ${thisIndex}</p>
+  <p style = 'background-color: ${ghostLifeBackgroundColor}; color: ${ghostLifeTextColor};'>ghostlife 001 - page ${thisIndex + 1}</p>
   <p><a href='${sites[nextIndex]}' style = 'background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a></p>
   `);
 
