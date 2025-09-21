@@ -9,6 +9,7 @@
 var sites = [
 'https://www.ghostlife.org/issue001/',
 'https://pi63on.github.io/erkercall/01',
+'https://spf.neocities.org/ghostlife/ghostlife',
 'https://www.plau.me/250830/2'
 ];
 
@@ -26,7 +27,7 @@ var useIndex = false;
 var indexPage = 'https://example.com/index.html';
 
 //should the widget include a random button?
-var useRandom = true;
+var useRandom = false;
 
 
 
