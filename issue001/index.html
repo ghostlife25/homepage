@@ -4,19 +4,77 @@
 	<meta charset="UTF-8">
 	<title>ghostlife 001</title>
 <style>
-* {
-	background-color: lightgreen;
+body {
+	background-color: #d04545;
 }
 body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
+h3 {
+	color: aliceblue;
+}
+
+p.tier {
+	text-align: center;
+	margin: 0;
+	background-color: #ffffff8c;
+	color: #382c63;
+    	font-size: 20px;
+}
+span.aug {
+	color: #000000;
+	background-color: #808979;
+}
+span.mund {
+	background-color: #a310698c;
+	color: #fff3c0;
+}
+span.brau {
+	background-color: #eaabab;
+	text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+#open-call-oval {
+  position: relative;
+  width: 150px;
+  height: 300px;
+  margin: 50px -155px;
+  align-self: flex-start;
+}
+
+.rainbow-letter {
+  position: absolute;
+  font-size: 7rem;
+  color: white;
+  transform: translate(-50%, -50%);
+}
 </style>
 </head>
 <body>
 <h3>Welcome to ghostlife issue 001</h3>
-<div id='ghostlife001'>
+<p class = "tier"> This publication is an <span style = "font-size: 16px">experiment</span> in collective publishing </p>
+<p class = "tier"> It consists of webp<span class = "brau">ages,</span> which are bou<span class = "brau">nd tog</span>ether by hyperlinks </p>
+<p class = "tier"> and as<span class = "aug"> a </span>result they form<span class = "aug"> a </span>webring </p>
+<p class = "tier"> those pages will not be updated after publication </p>
+<p class = "tier"> This is the first issue, so we still have a lot to learn! </p>
+<p class = "tier"> A new issue will<span class = "mund"> be pub</span>lished each month </p>
+<p class = "tier"> and therefore a new ring </p>
+</p>
+
+<div id="open-call-oval">
+  <span class="rainbow-letter">o</span>
+  <span class="rainbow-letter">p</span>
+  <span class="rainbow-letter">e</span>
+  <span class="rainbow-letter">n</span>
+  <span class="rainbow-letter">c</span>
+  <span class="rainbow-letter">a</span>
+  <span class="rainbow-letter">l</span>
+  <span class="rainbow-letter">l</span>
+</div>
+
+ <div id='ghostlife001'>
   <script>
 //replace the values between the quotation marks above to change the colors
    let ghostLifeBackgroundColor = "#0000007f";
@@ -28,5 +86,38 @@ body {
   <script type="text/javascript" src="https://ghostlife.org/onionring/onionring-variables.js"></script>
   <script type="text/javascript" src="https://ghostlife.org/onionring/onionring-widget.js"></script>
  </div>
+
+<!--The following animation was coded with the help of chatgpt -->
+ <script>
+const letters = document.querySelectorAll("#open-call-oval .rainbow-letter");
+const radiusX = 50;
+const radiusY = 320;
+const centerX = 150;
+const centerY = 75;
+const totalLetters = letters.length;
+const colors = ["red", "orange", "yellow", "green", "cyan", "blue", "indigo", "violet"];
+let angle = 0;
+
+function animate() {
+  for (let i = 0; i < totalLetters; i++) {
+    const letterAngle = angle + (i * (360 / totalLetters));
+    const radians = letterAngle * Math.PI / 180;
+    const x = centerX + radiusX * Math.cos(radians);
+    const y = centerY + radiusY * Math.sin(radians);
+
+    letters[i].style.left = x + "px";
+    letters[i].style.top = y + "px";
+    letters[i].style.transform = `translate(-50%, -50%) rotate(0deg)`; // Keep upright
+    letters[i].style.color = colors[i % colors.length];
+  }
+
+  angle = (angle + 0.3) % 360;
+  requestAnimationFrame(animate);
+}
+
+animate();
+</script>
+<!-- End of AI code -->
+
 </body>
 </html>
