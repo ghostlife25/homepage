@@ -28,9 +28,9 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<a href='https://ghostlife.org/issue001' style = 'margin: 0px 0px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>← previous</a>
+<a href='https://ghostlife.org/issue001' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>← previous</a>
   <p style = 'margin: 0px 0px; background-color: #ffffff00; color: ${ghostLifeTextColor}'>your webpage was not added to the zine yet. please reach out to the ghostlife team</p>
-  <a href='https://ghostlife.org/issue001' style = 'margin: 0px 0px; background-color: ${ghostLifeBackgroundColor}; color:${linkTextColor}; text-decoration: underline;'>next →</a>
+  <a href='https://ghostlife.org/issue001' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>next →</a>
   `);
 }
 else {
