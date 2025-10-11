@@ -1,5 +1,5 @@
 please copy the following block of code and paste it in the webpage you'd like
-to be added to ghostlife 001.
+to be added to ghostlife 002.
 place it right above the </body> tag of your .html file, 
 nothing should be between the last line of the code block and the </body> tag 
 after you've done this reach out and let me know. Then I'll add your webpage
@@ -7,17 +7,19 @@ to the hyperloop :D
 
 
 
-
 <div id='ghostlife002'>
   <script>
 //replace the values between the quotation marks above to change the colors
-   let ghostLifeBackgroundColor = "#000000";
-   let linkTextColor = "#808eff";
-   let ghostLifeTextColor = "#ffffff";
+   let ghostLifeBackgroundColor = "#ffffff00";
+   let linkTextColor = "#0000ff";
+   let ghostLifeTextColor = "#0000ff";
+   let ghostLifeBorderColor = "#0000ff";
+
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_picker
    here you can generate a color value */
   </script>
   <script type="text/javascript" src="https://ghostlife.org/002/onionring-variables.js"></script>
   <script type="text/javascript" src="https://ghostlife.org/002/onionring-widget.js"></script>
  </div>
+
 
