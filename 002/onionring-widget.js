@@ -29,7 +29,7 @@ function randomSite() {
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <a href='https://ghostlife.org/002' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>← previous</a>
-  <p style = 'margin: 0px 0px; background-color: #ffffff00; color: ${ghostLifeTextColor}'>your webpage was not added to the hyperloop yet. please reach out to the ghostlife team</p>
+  <p style = 'margin: 0px 0px; background-color: #ffffff00; color: ${ghostLifeTextColor}'>your webpage was not added to ghostlife yet. please reach out to the ghostlife team</p>
   <a href='https://ghostlife.org/002' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>next →</a>
   `);
 }
@@ -55,7 +55,7 @@ else {
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
   <a href='${sites[previousIndex]}' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>← previous</a>
-  <p style = 'margin: 0px 0px; background-color: #ffffff00; color: ${ghostLifeTextColor};'>ghostlife hyperloop 002 - page ${thisIndex + 1}</p>
+  <p style = 'margin: 0px 0px; background-color: #ffffff00; color: ${ghostLifeTextColor};'>ghostlife 002 - page ${thisIndex + 1}</p>
   <a href='${sites[nextIndex]}' style = 'margin: 0px 0px; background-color: #ffffff00; color:${linkTextColor}; text-decoration: underline;'>next →</a>
   `);
 
