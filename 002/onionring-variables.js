@@ -11,6 +11,7 @@ var sites = [
 'https://pi63on.github.io/erkercall/02/02',
 'https://www.plau.me/workshop-leaf.html',
 'https://patchbelly.neocities.org/isasmumghost',
+'https://billhonda.neocities.org/billhonda.html',
 'https://www.ghostlife.org/002-call.html',
 ];
 
