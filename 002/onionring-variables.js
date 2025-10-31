@@ -10,7 +10,6 @@ var sites = [
 'https://www.ghostlife.org/002/',
 'https://pi63on.github.io/erkercall/02/02',
 'https://plau.me/workshop-leaf.html',
-'plau.me/workshop-leaf.html',
 'https://patchbelly.neocities.org/isasmumghost',
 'https://www.ghostlife.org/002-call.html',
 ];
